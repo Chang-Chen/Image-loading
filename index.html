@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>图片自适应问题</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+	<h4>1、图片大于容器且高度大于宽度(需要进行缩放)</h4>
+	<div class="demo">
+		<img src="images/IMG_20170722_214726.jpg" data-scaleImg>
+	</div>
+	<h4>2、图片大于容器且宽度大于高度(需要进行缩放)</h4>
+	<div class="demo">
+		<img src="images/1.jpg" data-scaleImg>
+	</div>
+	<h4>3、图片小于容器且宽度大于高度(不需要进行缩放)</h4>
+	<div class="demo">
+		<img src="images/QQ20170727-130420.png" data-scaleImg>
+	</div>
+	<h4>4、图片小于容器且高度大于宽度(不需要进行缩放)</h4>
+	<div class="demo">
+		<img src="images/QQ20170727-111446.png" data-scaleImg>
+	</div>
+
+	<!--加载js文件-->
+	<script src="./node_modules/zepto/dist/zepto.min.js"></script>
+	<script src="./js/scaleImage.js"></script>
+</body>
+</html>

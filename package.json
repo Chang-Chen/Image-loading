@@ -1,0 +1,18 @@
+{
+  "name": "img-show-pro",
+  "version": "1.0.0",
+  "description": "This is an image-loading project",
+  "main": "zepto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zepto",
+    "img"
+  ],
+  "author": "zhangzhen",
+  "license": "ISC",
+  "devDependencies": {
+    "zepto": "^1.2.0"
+  }
+}
