@@ -11,7 +11,9 @@ This is an image-loading project
 
 
 步骤：
-git clone
+git clone https://github.com/Chang-Chen/Image-loading.git
+
+cd image-loading/
 
 npm install
 
